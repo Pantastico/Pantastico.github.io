@@ -1,0 +1,130 @@
+
+body{
+    text-align: center;
+    margin: 5%;
+    background-color: lavender;
+    border-style: solid
+}
+
+
+#navbarlist {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+#projects{
+    display:flex;
+    
+}
+
+.navbarItem > a{
+    text-decoration: none;
+    font-size:xx-large;
+    color:white;
+    font-family: sans-serif;
+
+}
+
+.navbarItem{
+    width: 25%;
+    height:50px;
+    background-color: #4B4B4B;
+    border-style: solid;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titleDiv{
+    background-color: black; 
+    display:flex; 
+    border-bottom: solid; 
+    border-bottom-color:#6f6f6f;
+}
+
+#Featured{
+    display:flex;
+    justify-content: space-around;
+    background-color: #6f6f6f;
+    border-bottom: solid;
+}
+#Featured > h2{
+    order: -1;
+    justify-self:center
+}
+
+#Featured > div{
+    display:flex;
+    flex-direction:column;
+    border-style: solid;
+    background-color: lavender;
+    margin-bottom: 10px;
+}
+
+#projects {
+    padding-top:10px;
+    background-color: #6f6f6f;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-evenly ;
+
+    flex-wrap: wrap;
+}
+
+.projectDiv{
+    display: flex;
+    flex-direction: column;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: black;
+    width:100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#aboutMe{
+
+    background-color: #6f6f6f;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: solid;
+    border-bottom-width: 5px;
+}
+
+.aboutMeDiv{
+    border: solid;
+    border-color: black;
+    background-color: lavender;
+    width: 30%
+
+}
+
+li{
+    text-align: left;
+}
+
+p{
+    margin-left: 5%;
+    margin-right:5%;
+
+
+}
+
+footer{
+    background-color: #6f6f6f;
+}
+#footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:flex;
+    flex-flow: row;
+    margin-left: 5%;
+    
+}
